@@ -1,0 +1,14 @@
+***************************************************************************
+*MONITOR:  InsertaPersona monitor nombre apellidos fecha1 horasAsig
+*Usuario: InsertaPersona usuario nombre apellidos fecha1 fecha2 saldo
+****************************************************************************
+*     Resultados:
+*	1 - Comando incorrecto 
+*	2 - Numero de argumentos incorrecto
+*     3 - Fecha incorrecta
+* 	4 - Numero de horas incorrecto2197
+*	5 - OK
+
+
+1 InsertaPersona monitor  "J Antonio"  "Fernandez" 10/02/1972  20
+2 Alta 25 Pilates
