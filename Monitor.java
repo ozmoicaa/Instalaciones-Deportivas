@@ -4,13 +4,14 @@ import java.util.Calendar;
 
 public class Monitor extends Persona {
 
-	private String especialidad;
+	private String especialidad=null;
 	private int horasSemanales;
 	
-	public Monitor(String nombre, String apellidos, int id, Calendar fechaNacimiento, String especialidad,
+	public Monitor(){}
+	
+	public Monitor(String nombre, String apellidos, int id, Calendar fechaNacimiento,
 			int horasSemanales) {
 		super(nombre, apellidos, id, fechaNacimiento);
-		this.especialidad = especialidad;
 		this.horasSemanales = horasSemanales;
 	}
 

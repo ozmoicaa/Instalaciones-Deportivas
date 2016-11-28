@@ -7,6 +7,8 @@ public class Usuario extends Persona {
 	private Calendar fechaAlta;
 	private double saldo;
 	
+	public Usuario(){}
+	
 	public Usuario(String nombre, String apellidos, int id, Calendar fechaNacimiento, Calendar fechaAlta,
 			double saldo) {
 		super(nombre, apellidos, id, fechaNacimiento);

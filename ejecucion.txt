@@ -11,4 +11,3 @@
 
 
 1 InsertaPersona monitor  "J Antonio"  "Fernandez" 10/02/1972  20
-2 Alta 25 Pilates

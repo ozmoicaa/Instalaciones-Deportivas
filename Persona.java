@@ -9,6 +9,9 @@ public class Persona {
 	private int id;
 	private Calendar fechaNacimiento;
 
+	public Persona(){}
+	
+
 	public Persona(String nombre, String apellidos, int id, Calendar fechaNacimiento) {
 		super();
 		this.nombre = nombre;
@@ -17,6 +20,22 @@ public class Persona {
 		this.fechaNacimiento = fechaNacimiento;
 	}
 
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Calendar getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+
+	public void setFechaNacimiento(Calendar fechaNacimiento) {
+		this.fechaNacimiento = fechaNacimiento;
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -32,4 +51,12 @@ public class Persona {
 	public void setApellidos(String apellidos) {
 		this.apellidos = apellidos;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", apellidos=" + apellidos + ", id=" + id + ", fechaNacimiento="
+				+ fechaNacimiento + "]";
+	}
+	
 }
